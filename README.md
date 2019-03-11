@@ -35,3 +35,27 @@ ATDD:
 		Configuro el tipo de cambio de compra y venta en 6.95 y 6.97.
 		Entonces solicito convertir 348.5 bolivianos a dolares.
 		Espero que me devuelva 50 dolares.
+
+	Caso 5:
+		Cuando realizo un tipo de cambio entre reales y dolares.
+		configuro el tipo de cambio de compra y venta en 3.77 y 3.79
+		Entonces solicito convertir 377 reales a dolares.
+		Espero que me devuelvan 100 Dolares.
+
+	Caso 6:
+		Cuando realizo un tipo de cambio entre reales y dolares.
+		configuro el tipo de cambio de compra y venta en 3.77 y 3.79
+		Entonces solicito convertir 100 dolares a reales.
+		Espero que me devuelvan 379.
+
+	Case 7:
+		Cuando realizo un tipo de cambio entre bolivianos y dolares.
+		configuro el tipo de cambio de compra y venta en 6.95 y 6.97.
+		Entonces solicito convertir -45 dolares a bolivianos.
+		El sistema debe dar un error Controlado de no se admiten negativos.
+
+	Caso 8:
+		Cuando realizo un tipo de cambio entre bolivianos y dolares.
+		configuro el tipo de cambio de compra y venta en 6.95 y 6.97.
+		Entonces solicito convertir 0 dolares a bolivianos.
+		El sistema debe dar un error Controlado de no se admite ceros.
